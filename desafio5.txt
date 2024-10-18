@@ -1,0 +1,26 @@
+# Informações
+
+- Velocidade do carro: 90 km/h
+- Velocidade do caminhão: 80 km/h
+- Distância entre Ribeirão Preto e Barretos: 125 km
+- 3 pedágios como obstáculo
+    - O carro demora 5 minutos extras em cada pedágio
+
+# Cálculos
+
+## Carro
+
+- O tempo total para o carro fazer o percurso sem os pedágios seria 125 km ÷ 90 km/h = 1.39 horas
+- Considerando os pedágios, o tempo aumenta para 1.39 + 0.25 = 1.64 horas
+
+## Caminhão
+
+- O tempo total para o caminhão fazer o percurso é 125 km ÷ 80 km/h = 1.56 horas
+
+Quando os veículos se cruzarem, eles terão percorrido distâncias proporcionais às suas velocidades.
+Mesmo considerando os pedágios, no momento do cruzamento, ambos estarão à mesma distância de Ribeirão Preto.
+
+# Explicação
+
+Apesar de o carro perder tempo nos pedágios, quando os veículos se cruzarem, ambos terão percorrido a mesma fração do caminho 
+que é proporcional às suas velocidades. Portanto, no momento do encontro, eles estarão à mesma distância de Ribeirão Preto.

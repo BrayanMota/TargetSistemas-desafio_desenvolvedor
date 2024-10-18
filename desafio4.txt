@@ -1,0 +1,15 @@
+SELECT 
+    c.id_cliente, 
+    c.nome AS razao_social, 
+    LISTAGG(t.numero, ', ') WITHIN GROUP (ORDER BY t.numero) AS telefones
+FROM 
+    cliente c
+JOIN 
+    telefone t ON c.id_cliente = t.cliente_id
+JOIN 
+    estado e ON c.estado_id = e.id_estado
+WHERE 
+    e.uf = 'SP'
+GROUP BY 
+    c.id_cliente, 
+    c.nome
